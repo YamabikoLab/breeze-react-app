@@ -37,3 +37,7 @@ https://readouble.com/laravel/9.x/ja/starter-kits.html
 
 ## inertia
 https://inertiajs.com/
+
+## vscode devcontainers
+https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+https://code.visualstudio.com/docs/devcontainers/containers
