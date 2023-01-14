@@ -27,3 +27,13 @@ npm run build
 
 ### 接続
 http://localhost
+
+# 参考資料
+## Laravel 9.x インストール
+https://readouble.com/laravel/9.x/ja/installation.html
+
+## Laravel 9.x スターターキット
+https://readouble.com/laravel/9.x/ja/starter-kits.html
+
+## inertia
+https://inertiajs.com/
