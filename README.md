@@ -21,8 +21,31 @@ php artisan migrate
 composer require laravel/breeze --dev
 php artisan breeze:install react --ssr
 php artisan migrate
-npm install
-npm run build
+yarn install
+```
+
+### npm run devで画面が真っ白になる現象に対応
+https://laracasts.com/discuss/channels/vite/laravel-vite-err-address-invalid
+```
+export default defineConfig({
+    server: {
+        host: '0.0.0.0',
+        hmr: {
+            host: 'localhost'
+        }
+    },
+    server: {
+        host: '0.0.0.0',
+        hmr: {
+            host: 'localhost'
+        }
+    },
+```
+
+### npm run dev
+
+```
+yarn dev
 ```
 
 ### 接続
